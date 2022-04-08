@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "../components/form/Button";
 import { Input } from "../components/form/Input";
+import { loginPost } from "../api/api";
 
 export default function Login() {
   return (
