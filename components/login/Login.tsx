@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 type Props = {
   loggedin: boolean;
-  onRegister?:React.MouseEventHandler<HTMLButtonElement>;
-  onLogout?:React.MouseEventHandler<HTMLButtonElement>;
+  onRegister?:any;
+  onLogout?:any;
   name: string;
 };
 
